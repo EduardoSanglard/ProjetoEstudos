@@ -4,6 +4,6 @@ try:
     n2 = float(input('2º Valor: '))
 
     soma = n1 + n2
-    print('A soma: ', float(soma))
+    print('A soma: ', soma)
 except ValueError:
     print('Voce nao digitou um numero')

@@ -6,6 +6,6 @@ try:
     b4 = float(input('4º Bimestre: '))
 
     media = b1+b2+b3+b4 / 4
-    print('A media ', float(media))
+    print('A media ', media)
 except ValueError:
     print('Voce nao digitou um numero')
