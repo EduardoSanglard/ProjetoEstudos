@@ -26,25 +26,15 @@ arquivo.write("Nr.  Usuário        Espaço utilizado     % do uso\n\n")
 for i in range(len(dados)):
     arquivo.write(str(i)+ "\t ")
     arquivo.write(str(dados[i][0]))
-
-
     utilizado = str(dados[i][1]).split(".")
-
     espaco = 15 - len(str(dados[i][0])) + (4 - len(utilizado[0]))
-
     for j in range(espaco):
         arquivo.write(" ")
-
     arquivo.write(utilizado[0]+","+utilizado[1]+" MB")
-
-
     utilizado = str(dados[i][2]).split(".")
-
     espaco = 14 - len(utilizado[0])
-
     for j in range(espaco):
         arquivo.write(" ")
-
     arquivo.write(utilizado[0]+","+utilizado[1]+"%\n")
 
 arquivo.write("\nEspaço total ocupado: "+ str(round(media, 2))+" MB\n")
