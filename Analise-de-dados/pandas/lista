@@ -1,0 +1,78 @@
+➡ Fácil
+
+⚫1- Importe Pandas e printe a versão
+
+⚫2- Crie uma série panda de cada um dos ítens abaixo: uma lista, numpy e um dicionário
+
+import numpy as np
+minhalista = list(‘abcedfghijklmnopqrstuvwxyz’)
+meuarr = np.arange(26)
+meudict = dict(zip(mylist, myarr))
+
+
+⚫3- Converta a série “ser” em um dataframe com seu índice como outra coluna no dataframe.
+minhalista = list(‘abcedfghijklmnopqrstuvwxyz’)
+meuarr = np.arange(26)
+meudic = dict(zip(mylist, myarr))
+ser = pd.Series(mydict)
+⚫4- Combine ‘ser1’ e ‘ser2’ para formar um dataframe
+import numpy as np
+ser1 = pd.Series(list(‘abcedfghijklmnopqrstuvwxyz’))
+ser2 = pd.Series(np.arange(26))
+⚫5- Atribua um nome a série “ser” chamando-a de ‘alfabeto’.
+ser = pd.Series(list(‘abcedfghijklmnopqrstuvwxyz’))
+
+➡ Médio
+
+⚫1- Da variável ‘ser’, remova os ítens presentes em ‘ser2’
+ser1 = pd.Series([1, 2, 3, 4, 5])
+ser2 = pd.Series([4, 5, 6, 7, 8])
+
+⚫2- Obtenha todos os ítens de ‘ser1’ e ‘ser2’ não comum a ambos.
+ser1 = pd.Series([1, 2, 3, 4, 5])
+ser2 = pd.Series([4, 5, 6, 7, 8])
+
+⚫3- Calcule o mínimo, 25º percentil, mediana, 75º e o máximo de ‘ser’:
+ser = pd.Series(np.random.normal(10, 5, 25))
+
+⚫4- Da variável ‘ser’, matenha os 2 ítens mais frequentes como estão e substitua todo o resto por ‘Outro’.
+np.random.RandomState(100)
+ser = pd.Series(np.random.randint(1, 5, [12]))
+
+⚫5- Coloque a série ‘ser’ em 10 decílios(decile) iguais e substitua os valores pelo nome da bandeja(bin)
+ser = pd.Series(np.random.random(20))
+Saída desejada:
+# Primeiros 5 itens
+0 7th
+1 9th
+2 7th
+3 3rd
+4 8th
+dtype: category
+Categories (10, object): [1st < 2nd < 3rd < 4th … 7th < 8th < 9th < 10th]
+
+➡ Difícil
+
+⚫1- Da variável ‘ser’ extraia palavras que contenham 2 vogais ou mais:
+ser = pd.Series([‘Apple’, ‘Orange’, ‘Plan’, ‘Python’, ‘Money’])
+
+Saída desejada:
+0 Apple
+1 Orange
+4 Money
+dtype: object
+
+2- Extraia emails válidos da série ’emails’. O padrão de regex para emails válidos é fornecido em ‘padrao’.
+emails = pd.Series([‘buying books at amazom.com’, ‘rameses@egypt.com’, ‘matt@t.co’, ‘narendra@modi.com’])
+padrao ='[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}’
+1 rameses@egypt.com
+2 matt@t.co
+3 narendra@modi.com
+dtype: object
+
+3- Obtenha as posições de picos(valores cercados por valores menores em ambos lados) da variável ‘ser’.
+ser = pd.Series([2, 10, 3, 4, 9, 10, 2, 7, 3])
+Saída desejada:
+array([1, 5, 7])
+
+➡ Muito difícil

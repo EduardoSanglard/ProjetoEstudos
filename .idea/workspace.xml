@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8660a589-c0f3-45ed-8991-07a29d709788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ExerciciosComString/ex1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosComString/ex2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosComString/ex3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosComString/ex4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosComString/ex5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosComString/ex6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analise-de-dados/numpy/lista" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analise-de-dados/pandas/lista" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaExerciciosProjetos/ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ListaExerciciosProjetos/ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExerciciosComString/ex6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,7 +48,6 @@
         <option value="$PROJECT_DIR$/EstruturaSequencial/ex16.py" />
         <option value="$PROJECT_DIR$/EstruturaSequencial/ex17.py" />
         <option value="$PROJECT_DIR$/EstruturaSequencial/lista" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/EstruturaSequencial/ex18.py" />
         <option value="$PROJECT_DIR$/EstruturaDeDecisao/lista.py" />
         <option value="$PROJECT_DIR$/EstruturaDeDecisao/lista" />
@@ -90,6 +75,9 @@
         <option value="$PROJECT_DIR$/ExerciciosComString/ex4.py" />
         <option value="$PROJECT_DIR$/ExerciciosComString/ex5.py" />
         <option value="$PROJECT_DIR$/ExerciciosComString/ex6.py" />
+        <option value="$PROJECT_DIR$/Analise-de-dados/numpy/lista" />
+        <option value="$PROJECT_DIR$/Analise-de-dados/pandas/lista" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -107,7 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,15 +102,11 @@
               <item name="ProjetoEstudos" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjetoEstudos" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ProjetoEstudos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetoEstudos" type="462c0819:PsiDirectoryNode" />
-              <item name="ExerciciosComString" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,14 +264,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1599" y="-11" width="1602" height="912" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24984147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24984147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49968293" visible="true" weight="0.22265123" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968293" weight="0.22265123" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -303,20 +285,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EstruturaSequencial/ex4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EstruturaSequencial/ex5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EstruturaSequencial/ex6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -404,16 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -642,7 +600,31 @@
     <entry file="file://$PROJECT_DIR$/ExerciciosComString/ex6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analise-de-dados/pandas/lista">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analise-de-dados/numpy/lista">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
